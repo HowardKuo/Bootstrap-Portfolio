@@ -63,7 +63,7 @@ h3 {
   border-bottom: 2px solid #cccccc;
 }
 
-#logo {
+#logo { 
   float: left;
   width: 250px;
   height: 90px;
@@ -78,7 +78,6 @@ h3 {
 }
 
 nav {
-  float: right;
   margin-top: 25px;
 }
 
@@ -94,6 +93,10 @@ nav a {
 
 nav a:first-child {
   border-left: 0 none;
+}
+
+.text-right {
+  text-align: right !important;
 }
 
 /* footer */
@@ -214,4 +217,8 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+ul.navbar-nav {
+  float: right;
 }
