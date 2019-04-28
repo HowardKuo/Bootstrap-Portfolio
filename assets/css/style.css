@@ -2,7 +2,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
-  color: #777777;
+  color: #fff6f6;
   background: url("../images/concrete_seamless.png");
 }
 
@@ -35,7 +35,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #fff6f6;
 }
 
 h1 {
@@ -59,7 +59,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
+  background:url("../images/whitwave.jpg");
   border-bottom: 2px solid #cccccc;
 }
 
@@ -71,7 +71,7 @@ h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #ffffff;
+  color: #fff6f6;
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
@@ -79,6 +79,7 @@ h3 {
 
 nav {
   margin-top: 25px;
+  background: rgb(24, 255, 224);
 }
 
 nav a {
@@ -104,7 +105,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 10px solid #4aaaa5;
   height: 50px;
 }
 
@@ -128,30 +129,25 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid #dddddd;
+  background: url("../images/tealbg.png");
+  background-size: 100% 100%;
+  border: 10px solid #4aaaa5;
 }
 
 /* portfolio page */
 
 .work {
   position: center;
-  /* float: left; */
   display: flex;
   justify-content: center;
   width: 200px;
   margin: 20px 0px;
-  /* overflow: hidden; */
   padding-right: 0;
 }
 
-
-/* .work:nth-child(even) {
-  margin-right: 40px;
-} */
-
 .work img {
   width: 100%;
+  border-radius: 15px;
 }
 
 .work h3 {
@@ -168,6 +164,10 @@ h3, h2 {
   background: rgba(0, 195, 255, 0.5);
   border-bottom: 0;
 
+}
+
+.work img:hover {
+  box-shadow:  0 0 30px #00f;
 }
 
 .auth-image {
